@@ -1,0 +1,32 @@
+# IntelliJ-specific files
+.idea/
+*.iml
+
+# Maven-specific files (if using Maven)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Java-specific files
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Selenium-specific files
+# Exclude driver binaries if stored locally
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# General IDE-specific files
+.vscode/
